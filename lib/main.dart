@@ -70,7 +70,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/poetry.jfif'),
                               ),
@@ -92,7 +92,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/storytelling.jfif'),
@@ -123,7 +123,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/playlist.png'),
                               ),
@@ -140,7 +140,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/liked.jfif'),
@@ -166,7 +166,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/playlist.png'),
                               ),
@@ -183,7 +183,7 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: MediaQuery.of(context).size.width*0.3,
+                                width: MediaQuery.of(context).size.height*0.2,
                                 height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/liked.jfif'),
