@@ -13,7 +13,7 @@ class TabBarScreen extends StatelessWidget {
         appBar: AppBar(title: Text('Video App'),
         bottom: TabBar(tabs: [
           Tab(
-            icon: Icon(Icons.featured_play_list),text: 'Videos Category',
+            icon: Icon(Icons.featured_play_list),text: 'Video Category',
           ),
           Tab(
             icon: Icon(Icons.favorite),text: 'Favourites',

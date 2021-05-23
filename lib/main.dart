@@ -56,7 +56,7 @@ class MyHomePage extends StatelessWidget {
                 // SizedBox(height: MediaQuery.of(context).size.height*0.05,),
                 Container(
                   alignment: Alignment.center,
-                  child:Text('Hi!! What do you want to watch.',style: TextStyle(color: Colors.white,fontSize: 22,fontWeight: FontWeight.bold),)
+                  child:Text('Hi!! What do you want to watch.',style: TextStyle(color: Colors.white,fontSize: MediaQuery.of(context).size.height*0.032,fontWeight: FontWeight.bold),)
                 ),
                 Container(
               width: double.infinity,
@@ -70,11 +70,11 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/poetry.jfif'),
                               ),
-                              Text('Poetry')
+                              Text('Poetry',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold),)
                             ],
                           )),
                     ),
@@ -92,12 +92,12 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/storytelling.jfif'),
                               ),
-                              Text('Story Telling')
+                              Text('Story Telling',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold))
                             ],
                           )),
                     ),
@@ -123,11 +123,11 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/playlist.png'),
                               ),
-                              Text('Playlist')
+                              Text('Playlist',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold))
                             ],
                           )),
                     ),
@@ -140,12 +140,12 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/liked.jfif'),
                               ),
-                              Text('Most Liked')
+                              Text('Most Liked',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold))
                             ],
                           )),
                     ),
@@ -166,11 +166,11 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset('assets/images/playlist.png'),
                               ),
-                              Text('Playlist')
+                              Text('Playlist',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold))
                             ],
                           )),
                     ),
@@ -183,12 +183,12 @@ class MyHomePage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                width: 135,
-                                height: 110,
+                                width: MediaQuery.of(context).size.width*0.3,
+                                height: MediaQuery.of(context).size.height*0.15,
                                 child: Image.asset(
                                     'assets/images/liked.jfif'),
                               ),
-                              Text('Most Liked')
+                              Text('Most Liked',style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.02,fontWeight: FontWeight.bold))
                             ],
                           )),
                     ),
